@@ -31,7 +31,7 @@ Above is a screenshot of my solution.
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/cheytes/Frontend-Projects/tree/main/L1-Projects/product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL]([https://your-live-site-url.com](https://cheytes.github.io/Product-preview-card/))
 
 ## My process
 
