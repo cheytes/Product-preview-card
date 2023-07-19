@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* UNIVERSAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 33rem;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+/* CONTENT */
+
+.content {
+    margin: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.subheading {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: .4em;
+    font-size: 0.8em;
+}
+
+.heading {
+    font-size: 1.3em;
+}
+
+.paragraph {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6em;
+}
+
+.prices {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.price1, .price2 {
+    display: inline-block;
+}
+
+.price1 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.8em;
+}
+
+.price2 {
+    font-size: 0.7em;
+    margin-left: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 1rem 4.5rem;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+.button p {
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    margin-left: .6rem;
+}
+
+.button:hover {
+    background-color: hsl(159, 35%, 19%)
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+    .container {
+        display: block;
+        margin: 0 auto;
+        width: 20rem;
+    }
+    
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+/* ATTRIBUTION */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
